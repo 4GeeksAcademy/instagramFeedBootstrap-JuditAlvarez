@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link href="mi_estilo.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Instagram con bootstrap. JUDIT ALVAREZ</title>
@@ -16,10 +17,10 @@
   <nav class="navbar navbar-expand-lg  bg-body-tertiary">
     <div class="container d-flex p-2">
 
-      <a class="navbar-brand d-flex flex-row" href="#"><!--aqui-->
+      <a class="navbar-brand href="#"><!--aqui-->
         <img
           src="https://th.bing.com/th/id/R.af1159ea3dd22f4b3d84a87d869127b9?rik=iz68IEBoErXAHw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2finstagram-icon-png-instagram-icon-1600.png&ehk=%2bAo2wF7lgRZJrtXPe3ev37c8JDCD6NBcj%2fGufhuhjQE%3d&risl=&pid=ImgRaw&r=0"
-          alt="Instagram" width="30px" height="30px" />
+          alt="Instagram" width="10px" height="10px" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active ms-auto" aria-current="page" href="#">Instagram</a><!--aqui-->
+            <a class="nav-link active" aria-current="page" href="#">Instagram</a><!--aqui-->
           </li>
-          <li class="nav-item mx-auto"><!--aqui-->
+          <li class="nav-item"><!--aqui-->
 
             <button type="button" class="btn btn-success mr-auto p-2">Create a new post</button><!--aqui-->
           </li>
-          <li class="nav-item dropdown  mx-auto "> <!--no funcioona-->
+          <li class="nav-item dropdown "> 
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
@@ -69,7 +70,7 @@
   <ul class="nav nav-tabs justify" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-        <img src="https://cdn-icons-png.flaticon.com/256/214/214202.png"width="30px" height="30px" alt=""></button>
+        <img src="https://cdn-icons-png.flaticon.com/256/214/214202.png" width="30px" height="30px"  alt=""></button>
     </li>
     <li class="nav-item" role="presentation">
       <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
@@ -78,45 +79,45 @@
     </li>
    
   </ul>
-  <div class="tab-content" id="myTabContent">
+  <div class="tab-content text-center" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
       <div class="container fotos">
         <div class="row">
-          <div class="col-md-3 mx-1 px-0"><img
+          <div class="col-md-3"><img
               src="https://th.bing.com/th/id/R.954f92f2a1dfbbb042017f3a71a13cd8?rik=gFshRTHzhhmG1w&riu=http%3a%2f%2facidcow.com%2fpics%2f20111028%2fanimals_30.jpg&ehk=Gwvvt3ZXaNXt4D75FT%2fue1QPOP0HX0OA2u9NVYMbkxI%3d&risl=&pid=ImgRaw&r=0"
-              class="img-thumbnail" width="500px" height="500px">
+              class="img-fluid h-100 object-fit-cover my-10" >
           </div>
-          <div class="col-md-3 mx-1 px-0"> <img src="https://th.bing.com/th/id/OIP.cQmprQKmAqft0Qt7HlKAiAHaE7?rs=1&pid=ImgDetMain"
-              class="img-thumbnail" width="500px" height="500px">
+          <div class="col-md-3"> <img src="https://th.bing.com/th/id/OIP.cQmprQKmAqft0Qt7HlKAiAHaE7?rs=1&pid=ImgDetMain"
+              class="img-fluid h-100 object-fit-cover my-10">
           </div>
-          <div class="col-md-3 mx-1 px-0"> <img
+          <div class="col-md-3"> <img
               src="https://th.bing.com/th/id/R.d6d6a862c354e5648c9cb2822c562668?rik=xJ0WaGVA2o8QOA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f26344-animals-teeth-Jaguar-jaguars.jpg&ehk=BLPkTbLJXy3E0t8UeiS9marsaws5tH61Ag173TB70Pw%3d&risl=&pid=ImgRaw&r=0"
-              class="img-thumbnail" width="500px" height="500px">
+              class="img-fluid h-100 object-fit-cover my-10">
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 mx-1 px-0"><img
+          <div class="col-md-3 "><img
               src="https://th.bing.com/th/id/R.6ea8a6c436ad75c1e3715092d174fdd7?rik=paXpfAbZMDZQmQ&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f10%2f12%2f378695-leopard-animals.jpg&ehk=zfH%2bLMddxe%2bVu0C15sJHg0ANYCYGplXYx2RP5Kup3xM%3d&risl=&pid=ImgRaw&r=0"
-              class="img-thumbnail" width="500px" height="500px">
+              class="img-fluid h-100 object-fit-cover my-10">
           </div>
-          <div class="col-md-3 mx-1 px-0"> <img src="https://wallup.net/wp-content/uploads/2016/01/185765-fox-animals-wildlife.jpg"
-              class="img-thumbnail" width="500px" height="500px">
+          <div class="col-md-3"> <img src="https://wallup.net/wp-content/uploads/2016/01/185765-fox-animals-wildlife.jpg"
+              class="img-fluid h-100 object-fit-cover my-10">
           </div>
-          <div class="col-md-3 mx-1 px-0"> <img src="https://th.bing.com/th/id/OIP.oXAhXwpdliBw4LJMFkoghgHaEK?rs=1&pid=ImgDetMain"
-              class="img-thumbnail" width="500px" height="500px">
+          <div class="col-md-3"> <img src="https://th.bing.com/th/id/OIP.oXAhXwpdliBw4LJMFkoghgHaEK?rs=1&pid=ImgDetMain"
+              class="img-fluid h-100 object-fit-cover my-10" >
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 mx-1 px-0"><img
+          <div class="col-md-3"><img
               src="https://th.bing.com/th/id/R.7065a642e857dcd541d92176941fb6f3?rik=YXcCd3k7iY9fAw&riu=http%3a%2f%2fwww.hdwallpaperspulse.com%2fwp-content%2fuploads%2f2013%2f02%2fBeautiful-Animal-010.jpg&ehk=sjHAXFQhAKSbvH8VzCY9MgUvgshzTnX%2fMtwoCU%2bvY30%3d&risl=&pid=ImgRaw&r=0"
-              class="img-thumbnail" width="500px" height="500px">
+              class="img-fluid h-100 object-fit-cover my-10" >
           </div>
-          <div class="col-md-3 mx-1 px-0"><img src="https://th.bing.com/th/id/OIP.HLM2n7TIfVZXp20gUw3MQQHaE5?rs=1&pid=ImgDetMain"
-              class="img-thumbnail" width="500px" height="500px">
-          </div>
-          <div class="col-md-3 mx-1 px-0"> <img
+          <div class="col-md-3 "><img src="https://th.bing.com/th/id/OIP.HLM2n7TIfVZXp20gUw3MQQHaE5?rs=1&pid=ImgDetMain"
+              class="img-fluid h-100 object-fit-cover my-10" >
+          </div> 
+          <div class="col-md-3 "> <img
               src="https://4.bp.blogspot.com/_EZ16vWYvHHg/S9RrMOTJoDI/AAAAAAAALTE/v5HWBrZHEuI/s1600/www.BancodeImagenesGratuitas.com+-Criaturas-11.jpg"
-              class="img-thumbnail" width="500px" height="500px">
+              class="img-fluid h-100 object-fit-cover my-10">
           </div>
         </div>
       </div>
