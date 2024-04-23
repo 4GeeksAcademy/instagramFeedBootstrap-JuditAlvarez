@@ -1,5 +1,6 @@
 img{
-     padding: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
     }
 
     .iconos{
@@ -8,3 +9,8 @@ img{
    .card{
      margin:10px
    }
+   .ico{
+    margin-right:10px;
+    margin-left:60px
+   }
+   
